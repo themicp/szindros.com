@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    background: #F8F8F8;
+}
+
+h1, h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+}
+ul {
+    width: 334px;
+    margin: 50px auto 0 auto;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+ul li {
+    float: left;
+    padding: 30px;
+    list-style: none;
+    background: #fff;
+    cursor: pointer;
+}
+ul li:hover {
+    background: #eee;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li img {
+    width: 50px;
+}
+.clear {
+    clear: both;
+}
+.gplus {
+    border-radius: 10px 0 0 0;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.fb {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ccc;
+}
+.twitter {
+    border-radius: 0 10px 0 0;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ddd;
+}
+.blogger {
+    border-radius: 0 0 0 10px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ccc;
+}
+.google_apps {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ddd;
+}
+.librarium {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 0 0 10px 0;
+}
